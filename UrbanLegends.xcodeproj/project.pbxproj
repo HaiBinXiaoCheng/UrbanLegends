@@ -23,6 +23,8 @@
 		FB891BC620034CDB009BFF31 /* HBPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB891BC520034CDB009BFF31 /* HBPreference.swift */; };
 		FB891BC8200350D9009BFF31 /* UIView+Positioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB891BC7200350D9009BFF31 /* UIView+Positioning.swift */; };
 		FB891BCC200352FA009BFF31 /* UIView+Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB891BCB200352FA009BFF31 /* UIView+Frame.swift */; };
+		FBC6D7EB200E1D42008003B8 /* CBTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC6D7EA200E1D42008003B8 /* CBTabBarController.swift */; };
+		FBC6D7ED200E1D80008003B8 /* HBTabBarVCManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC6D7EC200E1D80008003B8 /* HBTabBarVCManage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +73,8 @@
 		FB891BC520034CDB009BFF31 /* HBPreference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBPreference.swift; sourceTree = "<group>"; };
 		FB891BC7200350D9009BFF31 /* UIView+Positioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Positioning.swift"; sourceTree = "<group>"; };
 		FB891BCB200352FA009BFF31 /* UIView+Frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Frame.swift"; sourceTree = "<group>"; };
+		FBC6D7EA200E1D42008003B8 /* CBTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBTabBarController.swift; sourceTree = "<group>"; };
+		FBC6D7EC200E1D80008003B8 /* HBTabBarVCManage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBTabBarVCManage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,6 +240,8 @@
 		FB891BBA200346C6009BFF31 /* HBTabBarController */ = {
 			isa = PBXGroup;
 			children = (
+				FBC6D7EA200E1D42008003B8 /* CBTabBarController.swift */,
+				FBC6D7EC200E1D80008003B8 /* HBTabBarVCManage.swift */,
 			);
 			path = HBTabBarController;
 			sourceTree = "<group>";
@@ -549,7 +555,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB891BC420034CB8009BFF31 /* HBInitiateConfig.swift in Sources */,
+				FBC6D7ED200E1D80008003B8 /* HBTabBarVCManage.swift in Sources */,
 				FB891BC02003477C009BFF31 /* HBViewController.swift in Sources */,
+				FBC6D7EB200E1D42008003B8 /* CBTabBarController.swift in Sources */,
 				FB891BC620034CDB009BFF31 /* HBPreference.swift in Sources */,
 				FB891BBE20034763009BFF31 /* HBNavigationController.swift in Sources */,
 				FB891BCC200352FA009BFF31 /* UIView+Frame.swift in Sources */,
